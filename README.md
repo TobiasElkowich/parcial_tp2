@@ -1,3 +1,18 @@
+### Instrucciones de Instalacion y Ejecucion
+
+1. **Instalar dependencias:**
+   ```bash
+   npm install
+   ```
+
+2. **Configurar variables de entorno:**
+   Copia el archivo `.env.example` a un nuevo archivo llamado `.env` y configura el puerto si es necesario (por defecto `3000`).
+
+3. **Ejecutar el servidor:**
+   ```bash
+   npm start
+   ```
+
 BASE_URL = "localhost:3000/api/v1/quotes"
 
 1. `GET {BASE_URL}/random`
